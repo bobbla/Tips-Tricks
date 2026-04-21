@@ -1,0 +1,36 @@
+Windows Commands
+
+20 Run Commands Every Windows User Should Know — Open Anything Instantly 
+https://www.youtube.com/watch?v=N_iNyBgU5-U
+
+There's a faster way to open almost anything in Windows — and most people never use it. Run commands let you bypass menus, Settings pages, and search results entirely. Just press Windows + R, type a short command, and you're there instantly. In this video I walk through 20 of the most useful Run commands in Windows 10 and 11 — from essential system tools and diagnostic utilities to hidden settings pages and power-user shortcuts. All commands are listed below for easy reference.
+
+🖥️ All Run Commands:
+msconfig — System Configuration
+eventvwr — Event Viewer
+services.msc — Services Manager
+regedit — Registry Editor
+msinfo32 — System Information
+devmgmt.msc — Device Manager
+diskmgmt.msc — Disk Management
+cleanmgr — Disk Cleanup
+control — Control Panel
+appwiz.cpl — Programs and Features
+ncpa.cpl — Network Connections
+firewall.cpl — Windows Defender Firewall
+powercfg.cpl — Power Options
+main.cpl — Mouse Properties
+dxdiag — DirectX Diagnostic Tool
+mdsched — Windows Memory Diagnostic
+taskschd.msc — Task Scheduler
+explorer — File Explorer
+calc — Calculator
+cmd — Command Prompt
+
+Bonus Commands:
+sysdm.cpl — System Properties
+gpedit.msc — Group Policy Editor
+optionalfeatures — Windows Features
+shell:startup — Startup Folder
+%temp% — Temp Folder
+winver — Windows Version Info

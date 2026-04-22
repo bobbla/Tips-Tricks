@@ -1,0 +1,14 @@
+ How to Backup Yours Drivers Before Formatting Windows 
+https://www.youtube.com/watch?v=OkWgPpOUCOQ
+
+Ever formatted your PC and ended up with no Wi-Fi, no sound, or a blurry screen? Don't let a fresh Windows install turn into a tech nightmare. In this video, I’ll show you a powerful, built-in Windows method to backup every single driver on your system—Wi-Fi, Bluetooth, Audio, and Chipset—before you format, and restore them in minutes without needing an internet connection.
+
+You don't need third-party software or sketchy websites to find missing drivers. Using the built-in Windows DISM (Deployment Image Servicing and Management) tool, you can export your current drivers to a USB drive and reinstall them instantly after your OS fresh install.
+
+** IMPORTANT NOTE **
+This method works perfectly for almost all internal hardware drivers. Please note: Dedicated graphics card drivers (Nvidia/AMD) require a fresh download from the manufacturer's official website for the best performance.
+
+** THE DISM COMMAND **
+Copy and paste this command into your Administrator Command Prompt (ensure you change "D" to your actual USB drive letter):
+
+dism /online /export-driver /destination:D:\drivers

@@ -1,0 +1,63 @@
+Windows Keeps Crashing - Fix It FAST with These 10 Commands
+
+https://www.youtube.com/watch?v=gqL8u3N4az0
+
+
+Stop the Blue Screen of Death (BSOD) for good! 💻🚫
+If your PC is freezing, restarting randomly, or showing constant error messages, you don’t need to be a tech genius to fix it. In this video, we’re diving into the Command Prompt (CMD) to run the 10 most powerful repair commands that every Windows user should know.
+
+From repairing corrupted system files with SFC Scannow to fixing boot errors and deep-cleaning your Windows image with DISM, these steps are designed to get your computer running like new—FAST.
+
+In this video, you will learn:
+
+How to run CMD as an Administrator.
+
+The difference between SFC and DISM (and why you need both).
+
+How to fix internet connectivity and DNS issues via terminal.
+
+Advanced boot repair commands to save a "dead" PC.
+
+Commands featured in this video:
+Right Click on Start, Click on Terminal with Administrator.
+scans the integrity of protected system files and repairs corrupt, missing, or damaged files by replacing them with a cached healthy version
+sfc /scannow
+
+🔍 Check if image is repairable
+DISM /Online /Cleanup-Image /AnalyzeComponentStore
+
+Removes old component versions
+DISM /Online /Cleanup-Image /StartComponentCleanup
+
+🌐 Repair using Windows Update
+DISM /Online /Cleanup-Image /RestoreHealth
+
+Aggressive cleanup (recommended occasionally)
+DISM /Online /Cleanup-Image /StartComponentCleanup /ResetBase
+
+📀 Repair using a local source (ISO/USB)
+DISM /Online /Cleanup-Image /RestoreHealth /Source:X:\sources\install.wim
+or
+DISM /Online /Cleanup-Image /RestoreHealth /Source:X:\sources\install.esd
+
+chkdsk /r /x
+is a Windows command-line tool used to detect and repair hard drive errors, file system corruption, and bad sectors.
+
+Reset Network Components:
+ipconfig /flushdns: Resolves DNS and website loading issues.
+netsh winsock reset: Fixes Winsock catalog corruption.
+netsh int ip reset: Resets TCP/IP stack to default.
+
+Refresh IP Address and Fix Internet Issues:
+ipconfig /release: Releases your current IP address.
+ipconfig /renew: Requests a new IP address
+ipconfig /flushdns and press Enter to clear dns cache
+
+View and configure the network settings on a Windows computer.
+ipconfig -ano
+
+Kill a process from the command line:
+cmd.exe. taskkill /F /PID (pid number)
+cmd.exe. taskkill /F /IM (process name)
+Windows PowerShell. Stop-Process -Force -Id (pid)
+Windows PowerShell. Stop-Process -Name (process name)

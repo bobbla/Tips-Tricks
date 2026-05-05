@@ -34,3 +34,34 @@ optionalfeatures — Windows Features
 shell:startup — Startup Folder
 %temp% — Temp Folder
 winver — Windows Version Info
+
+
+
+
+
+
+
+---------------------------------------------------------------------
+ 12 Hidden CMD Commands That Save Hours of Work 
+https://www.youtube.com/watch?v=2I9yk03Wfic
+
+Most Windows users never open Command Prompt and they're missing out on some of the most powerful tools built into the operating system. 
+
+In this video I walk through 12 genuinely useful CMD commands for Windows 11, covering everything from network diagnostics and system repair to drive benchmarking, battery health, process management, and scheduled shutdowns. Every command is clearly explained with real-world use cases so you know exactly when and why to use each one.
+
+All commands from this video are listed below for easy copy-paste:
+
+🖥️ systeminfo — Full system overview
+🌐 ipconfig /all — Network configuration details
+🌐 ipconfig /release & /renew — Fix IP address issues
+📡 ping google.com — Test internet connectivity
+📡 tracert google.com — Trace network route
+🔧 sfc /scannow — Repair corrupted system files
+🔧 DISM /Online /Cleanup-Image /RestoreHealth — Repair Windows component store
+🔒 netstat -an — View active network connections
+📋 tasklist — List all running processes
+❌ taskkill /PID [number] /F — Force close a process
+💾 winsat disk -drive C — Benchmark drive speed
+🔋 powercfg /batteryreport — Generate battery health report
+🩺 chkdsk C: /f /r — Scan and repair drive errors
+⏻ shutdown /s /t 3600 — Schedule a timed shutdown
